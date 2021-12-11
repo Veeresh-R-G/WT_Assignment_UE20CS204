@@ -48,9 +48,9 @@ app.get('/', (req, res) => {
             console.log("Error is : " + err);
         }
         else {
-            console.log(`Extracting info based on Model_Name = ${query.model_name}`);
+            console.log(`Extracting info based on Model_Name = ${query.model_no}`);
             let dataBase = dbs.db('assignDB');
-            dataBase.collection('watch').findOne(query).toArray((err, docs) => {
+            dataBase.collection('watch').find(query).toArray((err, docs) => {
                 if (err) {
                     console.log(err);
                 }
@@ -95,7 +95,7 @@ app.put('/updateDoc', (req, res) => {
                 {
                     $set:
                     {
-                        "model_price": 500000
+                        "model_price": 1000000
                     }
                 },
                 {
@@ -108,5 +108,5 @@ app.put('/updateDoc', (req, res) => {
     })
 })
 app.listen(PORT, () => {
-    console.log(`Serve started at ${PORT}`)
+    console.log(`Server started at ${PORT}`)
 })
