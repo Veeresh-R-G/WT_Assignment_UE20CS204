@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+.mainWrapper {
+  border: 10px white solid;
+  display: flex;
+  flex-direction: row;
+  width: 1120px;
+  margin: 50px 130px 40px 165px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.cards {
+  width: 200px;
+  height: 200px;
+  border: 10px #12dd32 solid;
+  margin: 30px;
+  background-color: blue;
+  color: white;
+}
