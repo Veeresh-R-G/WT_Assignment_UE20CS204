@@ -1,0 +1,33 @@
+body{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.main-div{
+    text-align: center;
+    margin: 40px 0 40px 0;
+    position :absolute;
+    left: 850px;
+    bottom:300px;
+    width: 430px;
+    height: 200px;
+    background-color: white;
+    color: #000;
+    border:black 2px solid;
+    border-radius:20px;
+}
+
+button{   
+    position:absolute;
+    left:890px;
+    top:500px;
+    width: 260px;
+    margin-left: 75px;
+    background-color: #000;
+    color: white;
+    padding: 13px;
+    border:white 2px solid;
+    border-radius: 40px;
+    font-size: 20px;
+}
