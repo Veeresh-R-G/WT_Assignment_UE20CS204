@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>QUESTION-2</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: blueviolet;
+        }
+        button{
+            padding:15px;
+            border-radius: 19px;
+            border: none;
+        }
+        button:hover{
+            transform: scale(1.06);
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>    
+    <h1 class="heading1">HEADER-TAG</h1>
+    <p>PARAGRAPH - TAG</p>
+    <h1>TOGGLING HEADING - TAG</h1>
+    <button class='button'>CLICK HERE TO TOGGLE THE HEADING </button>
+    <div class="container">
+        <video src="" class="video" controls></video>
+    </div>
+    <button type="submit" class='video_btn'>Click here to see video</button>
+    <script>      
+        let heading = $(".heading1");
+        let para = $("p");
+        heading.css("color","blue");
+        para.css("font-size","30px");  
+        //removing the heading and para
+        heading.remove();
+        para.remove();
+        //adding toggling behavior to the Heading
+        let btn = $(".button");
+        btn.click(function()
+        {
+            let toggle_head = $("h1");
+            toggle_head.toggle();
+        })
+        $('.container').css('display','none')
+        $('.video_btn').click(()=>{
+            console.log('buton clicked ')
+            $('.video').attr('src','this_video.mp4');
+            $('.container').css('display','block');
+        })                  
+        </script>
+</body>
+</html>
