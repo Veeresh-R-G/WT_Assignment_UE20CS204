@@ -1,10 +1,14 @@
 # WT_Assignment_UE20CS204
 
-### UNIT-3 , UNIT - 4 and UNIT - 5
+### UNIT - 1 and UNT - 2
+#### These solutions have basic html / css / javaScript files attached so just download them(or Clone them) and run those files.
 
+
+### UNIT-3 , UNIT - 4 and UNIT - 5
 When you download the files make sure to run <br> `npm install  OR npm i` ---> to install are required Dependencies <br><br> To run ---> `node <fileName>.js   OR   nodemon <fileName>.js` 
 #### I have used POSTMAN to perform GET / POST / PUT Requests 
-#### For those of you who deos not to know what POSTMAN is.. Scroll Down ( 5 - 10 min read)
+#### **_Note_** : Styling can be improved as per individual's interest.<br><br>
+### For those of you who have no idea of what POSTMAN is.. Scroll Down ( 5 - 10 min read)
 ### <ins> POSTMAN TUTORIAL </ins> <br>
 #### You can Download POSTMAN From here : https://www.postman.com/downloads/
 
